@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EE6EAFE188DE441525A1BD2 /* libPods-FleetingTimeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B69C6858969CB7305679F128 /* libPods-FleetingTimeTests.a */; };
+		4CEDBE1939B02811AABAE659 /* libPods-FleetingTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3794F973A990A5A364D44FC5 /* libPods-FleetingTime.a */; };
 		8135BC962115B67A001AF574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135BC952115B67A001AF574 /* AppDelegate.m */; };
 		8135BC992115B67A001AF574 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135BC982115B67A001AF574 /* ViewController.m */; };
 		8135BC9C2115B67A001AF574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8135BC9A2115B67A001AF574 /* Main.storyboard */; };
@@ -16,6 +18,27 @@
 		8135BCA72115B67B001AF574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135BCA62115B67B001AF574 /* main.m */; };
 		8135BCB12115B67C001AF574 /* FleetingTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135BCB02115B67C001AF574 /* FleetingTimeTests.m */; };
 		8135BCBC2115B67C001AF574 /* FleetingTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135BCBB2115B67C001AF574 /* FleetingTimeUITests.m */; };
+		8135BCCB2115BB08001AF574 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135BCCA2115BB08001AF574 /* MainViewController.m */; };
+		8135BCCE2115BBD4001AF574 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135BCCD2115BBD4001AF574 /* MainTableViewCell.m */; };
+		8135BD5E2115C86D001AF574 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135BD5D2115C86D001AF574 /* MainModel.m */; };
+		8135BD6C21170149001AF574 /* img_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 8135BD6121170147001AF574 /* img_4.png */; };
+		8135BD6E21170149001AF574 /* img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8135BD6321170147001AF574 /* img_1.png */; };
+		8135BD6F21170149001AF574 /* img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8135BD6421170147001AF574 /* img_0.png */; };
+		8135BD7221170149001AF574 /* img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8135BD6721170148001AF574 /* img_2.png */; };
+		8135BD7321170149001AF574 /* img_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8135BD6821170148001AF574 /* img_3.png */; };
+		8135BD7E21171710001AF574 /* img_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 8135BD7D21171710001AF574 /* img_5.png */; };
+		8135BD8021171774001AF574 /* img_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 8135BD7F21171774001AF574 /* img_6.png */; };
+		8135BD8221171917001AF574 /* img_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8135BD8121171917001AF574 /* img_7.png */; };
+		8135BD842117193E001AF574 /* img_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8135BD832117193E001AF574 /* img_8.png */; };
+		8135BD872117290E001AF574 /* SVGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8135BD862117290E001AF574 /* SVGViewController.m */; };
+		8135BD8A21172B7B001AF574 /* Cycling_Lambie.svg in Resources */ = {isa = PBXBuildFile; fileRef = 8135BD8921172B7B001AF574 /* Cycling_Lambie.svg */; };
+		8135BD8D21172CBB001AF574 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8135BD8C21172CBB001AF574 /* CoreText.framework */; };
+		8135BD8F21172CC3001AF574 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8135BD8E21172CC3001AF574 /* CoreImage.framework */; };
+		8135BD9121172CCC001AF574 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8135BD9021172CCC001AF574 /* libxml2.tbd */; };
+		8135BD9321172CD3001AF574 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8135BD9221172CD3001AF574 /* QuartzCore.framework */; };
+		8135BD9521172CDA001AF574 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8135BD9421172CDA001AF574 /* CoreGraphics.framework */; };
+		8135BD9721172CE2001AF574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8135BD9621172CE2001AF574 /* UIKit.framework */; };
+		E13689C25322E9A20609297F /* libPods-FleetingTimeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1261B37A5A4E24858C037214 /* libPods-FleetingTimeUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +59,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1261B37A5A4E24858C037214 /* libPods-FleetingTimeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FleetingTimeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		231BE545A7813ABEC8C6A5E1 /* Pods-FleetingTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetingTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FleetingTime/Pods-FleetingTime.debug.xcconfig"; sourceTree = "<group>"; };
+		3794F973A990A5A364D44FC5 /* libPods-FleetingTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FleetingTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AC400093DCCC9998583D017 /* Pods-FleetingTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetingTimeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleetingTimeUITests/Pods-FleetingTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8135BC912115B67A001AF574 /* FleetingTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FleetingTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8135BC942115B67A001AF574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8135BC952115B67A001AF574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +80,36 @@
 		8135BCB72115B67C001AF574 /* FleetingTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FleetingTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8135BCBB2115B67C001AF574 /* FleetingTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FleetingTimeUITests.m; sourceTree = "<group>"; };
 		8135BCBD2115B67C001AF574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8135BCC92115BB08001AF574 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8135BCCA2115BB08001AF574 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8135BCCC2115BBD4001AF574 /* MainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		8135BCCD2115BBD4001AF574 /* MainTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		8135BCCF2115C0AC001AF574 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		8135BD5C2115C86D001AF574 /* MainModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		8135BD5D2115C86D001AF574 /* MainModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
+		8135BD6121170147001AF574 /* img_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_4.png; sourceTree = "<group>"; };
+		8135BD6321170147001AF574 /* img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_1.png; sourceTree = "<group>"; };
+		8135BD6421170147001AF574 /* img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_0.png; sourceTree = "<group>"; };
+		8135BD6721170148001AF574 /* img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_2.png; sourceTree = "<group>"; };
+		8135BD6821170148001AF574 /* img_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_3.png; sourceTree = "<group>"; };
+		8135BD7D21171710001AF574 /* img_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_5.png; sourceTree = "<group>"; };
+		8135BD7F21171774001AF574 /* img_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_6.png; sourceTree = "<group>"; };
+		8135BD8121171917001AF574 /* img_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_7.png; sourceTree = "<group>"; };
+		8135BD832117193E001AF574 /* img_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_8.png; sourceTree = "<group>"; };
+		8135BD852117290E001AF574 /* SVGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVGViewController.h; sourceTree = "<group>"; };
+		8135BD862117290E001AF574 /* SVGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVGViewController.m; sourceTree = "<group>"; };
+		8135BD8921172B7B001AF574 /* Cycling_Lambie.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Cycling_Lambie.svg; sourceTree = "<group>"; };
+		8135BD8C21172CBB001AF574 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		8135BD8E21172CC3001AF574 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		8135BD9021172CCC001AF574 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		8135BD9221172CD3001AF574 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8135BD9421172CDA001AF574 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8135BD9621172CE2001AF574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A995052DCB884887D80A686C /* Pods-FleetingTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetingTimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleetingTimeTests/Pods-FleetingTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		B69C6858969CB7305679F128 /* libPods-FleetingTimeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FleetingTimeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CC6BD322EAFA2BFB8D59AD /* Pods-FleetingTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetingTimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FleetingTimeTests/Pods-FleetingTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5B2C999B9383FD475D01694 /* Pods-FleetingTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetingTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-FleetingTime/Pods-FleetingTime.release.xcconfig"; sourceTree = "<group>"; };
+		FF5DBF354ED3943461D4958E /* Pods-FleetingTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FleetingTimeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FleetingTimeUITests/Pods-FleetingTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +117,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8135BD9721172CE2001AF574 /* UIKit.framework in Frameworks */,
+				8135BD9521172CDA001AF574 /* CoreGraphics.framework in Frameworks */,
+				8135BD9321172CD3001AF574 /* QuartzCore.framework in Frameworks */,
+				8135BD9121172CCC001AF574 /* libxml2.tbd in Frameworks */,
+				8135BD8F21172CC3001AF574 /* CoreImage.framework in Frameworks */,
+				8135BD8D21172CBB001AF574 /* CoreText.framework in Frameworks */,
+				4CEDBE1939B02811AABAE659 /* libPods-FleetingTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE6EAFE188DE441525A1BD2 /* libPods-FleetingTimeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +139,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E13689C25322E9A20609297F /* libPods-FleetingTimeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		549EFB94196C19DA6453D143 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				231BE545A7813ABEC8C6A5E1 /* Pods-FleetingTime.debug.xcconfig */,
+				F5B2C999B9383FD475D01694 /* Pods-FleetingTime.release.xcconfig */,
+				F3CC6BD322EAFA2BFB8D59AD /* Pods-FleetingTimeTests.debug.xcconfig */,
+				A995052DCB884887D80A686C /* Pods-FleetingTimeTests.release.xcconfig */,
+				FF5DBF354ED3943461D4958E /* Pods-FleetingTimeUITests.debug.xcconfig */,
+				5AC400093DCCC9998583D017 /* Pods-FleetingTimeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8135BC882115B67A001AF574 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +166,8 @@
 				8135BCAF2115B67C001AF574 /* FleetingTimeTests */,
 				8135BCBA2115B67C001AF574 /* FleetingTimeUITests */,
 				8135BC922115B67A001AF574 /* Products */,
+				549EFB94196C19DA6453D143 /* Pods */,
+				C4C45D3C9C79483ACC77545D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +188,17 @@
 				8135BC952115B67A001AF574 /* AppDelegate.m */,
 				8135BC972115B67A001AF574 /* ViewController.h */,
 				8135BC982115B67A001AF574 /* ViewController.m */,
+				8135BD852117290E001AF574 /* SVGViewController.h */,
+				8135BD862117290E001AF574 /* SVGViewController.m */,
+				8135BCC92115BB08001AF574 /* MainViewController.h */,
+				8135BCCA2115BB08001AF574 /* MainViewController.m */,
+				8135BCCC2115BBD4001AF574 /* MainTableViewCell.h */,
+				8135BCCD2115BBD4001AF574 /* MainTableViewCell.m */,
+				8135BD5C2115C86D001AF574 /* MainModel.h */,
+				8135BD5D2115C86D001AF574 /* MainModel.m */,
+				8135BCCF2115C0AC001AF574 /* Define.h */,
+				8135BD8921172B7B001AF574 /* Cycling_Lambie.svg */,
+				8135BD172115C71E001AF574 /* 图片 */,
 				8135BC9A2115B67A001AF574 /* Main.storyboard */,
 				8135BCA02115B67B001AF574 /* Assets.xcassets */,
 				8135BCA22115B67B001AF574 /* LaunchScreen.storyboard */,
@@ -135,6 +227,38 @@
 			path = FleetingTimeUITests;
 			sourceTree = "<group>";
 		};
+		8135BD172115C71E001AF574 /* 图片 */ = {
+			isa = PBXGroup;
+			children = (
+				8135BD6421170147001AF574 /* img_0.png */,
+				8135BD6321170147001AF574 /* img_1.png */,
+				8135BD6721170148001AF574 /* img_2.png */,
+				8135BD6821170148001AF574 /* img_3.png */,
+				8135BD6121170147001AF574 /* img_4.png */,
+				8135BD7D21171710001AF574 /* img_5.png */,
+				8135BD7F21171774001AF574 /* img_6.png */,
+				8135BD8121171917001AF574 /* img_7.png */,
+				8135BD832117193E001AF574 /* img_8.png */,
+			);
+			path = "图片";
+			sourceTree = "<group>";
+		};
+		C4C45D3C9C79483ACC77545D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8135BD9621172CE2001AF574 /* UIKit.framework */,
+				8135BD9421172CDA001AF574 /* CoreGraphics.framework */,
+				8135BD9221172CD3001AF574 /* QuartzCore.framework */,
+				8135BD9021172CCC001AF574 /* libxml2.tbd */,
+				8135BD8E21172CC3001AF574 /* CoreImage.framework */,
+				8135BD8C21172CBB001AF574 /* CoreText.framework */,
+				3794F973A990A5A364D44FC5 /* libPods-FleetingTime.a */,
+				B69C6858969CB7305679F128 /* libPods-FleetingTimeTests.a */,
+				1261B37A5A4E24858C037214 /* libPods-FleetingTimeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8135BCC02115B67C001AF574 /* Build configuration list for PBXNativeTarget "FleetingTime" */;
 			buildPhases = (
+				AA40B5CDF373189C272D5506 /* [CP] Check Pods Manifest.lock */,
 				8135BC8D2115B67A001AF574 /* Sources */,
 				8135BC8E2115B67A001AF574 /* Frameworks */,
 				8135BC8F2115B67A001AF574 /* Resources */,
@@ -159,6 +284,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8135BCC32115B67C001AF574 /* Build configuration list for PBXNativeTarget "FleetingTimeTests" */;
 			buildPhases = (
+				8FEABA360D43F9BE6F4AE912 /* [CP] Check Pods Manifest.lock */,
 				8135BCA82115B67C001AF574 /* Sources */,
 				8135BCA92115B67C001AF574 /* Frameworks */,
 				8135BCAA2115B67C001AF574 /* Resources */,
@@ -177,6 +303,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8135BCC62115B67C001AF574 /* Build configuration list for PBXNativeTarget "FleetingTimeUITests" */;
 			buildPhases = (
+				056A4E7BD06D3AE0D251ABA2 /* [CP] Check Pods Manifest.lock */,
 				8135BCB32115B67C001AF574 /* Sources */,
 				8135BCB42115B67C001AF574 /* Frameworks */,
 				8135BCB52115B67C001AF574 /* Resources */,
@@ -239,8 +366,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				8135BCA42115B67B001AF574 /* LaunchScreen.storyboard in Resources */,
+				8135BD7321170149001AF574 /* img_3.png in Resources */,
+				8135BD6F21170149001AF574 /* img_0.png in Resources */,
 				8135BCA12115B67B001AF574 /* Assets.xcassets in Resources */,
+				8135BD7E21171710001AF574 /* img_5.png in Resources */,
+				8135BD8A21172B7B001AF574 /* Cycling_Lambie.svg in Resources */,
 				8135BC9C2115B67A001AF574 /* Main.storyboard in Resources */,
+				8135BD8221171917001AF574 /* img_7.png in Resources */,
+				8135BD6C21170149001AF574 /* img_4.png in Resources */,
+				8135BD842117193E001AF574 /* img_8.png in Resources */,
+				8135BD7221170149001AF574 /* img_2.png in Resources */,
+				8135BD8021171774001AF574 /* img_6.png in Resources */,
+				8135BD6E21170149001AF574 /* img_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +397,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		056A4E7BD06D3AE0D251ABA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FleetingTimeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FEABA360D43F9BE6F4AE912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FleetingTimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA40B5CDF373189C272D5506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FleetingTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8135BC8D2115B67A001AF574 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8135BCCE2115BBD4001AF574 /* MainTableViewCell.m in Sources */,
 				8135BC992115B67A001AF574 /* ViewController.m in Sources */,
 				8135BC962115B67A001AF574 /* AppDelegate.m in Sources */,
 				8135BCA72115B67B001AF574 /* main.m in Sources */,
+				8135BCCB2115BB08001AF574 /* MainViewController.m in Sources */,
+				8135BD872117290E001AF574 /* SVGViewController.m in Sources */,
 				8135BC9F2115B67A001AF574 /* FleetingTime.xcdatamodeld in Sources */,
+				8135BD5E2115C86D001AF574 /* MainModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +633,7 @@
 		};
 		8135BCC12115B67C001AF574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 231BE545A7813ABEC8C6A5E1 /* Pods-FleetingTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +651,7 @@
 		};
 		8135BCC22115B67C001AF574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B2C999B9383FD475D01694 /* Pods-FleetingTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +669,7 @@
 		};
 		8135BCC42115B67C001AF574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3CC6BD322EAFA2BFB8D59AD /* Pods-FleetingTimeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +689,7 @@
 		};
 		8135BCC52115B67C001AF574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A995052DCB884887D80A686C /* Pods-FleetingTimeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +709,7 @@
 		};
 		8135BCC72115B67C001AF574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5DBF354ED3943461D4958E /* Pods-FleetingTimeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25R9QAWP9M;
@@ -525,6 +728,7 @@
 		};
 		8135BCC82115B67C001AF574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC400093DCCC9998583D017 /* Pods-FleetingTimeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25R9QAWP9M;
